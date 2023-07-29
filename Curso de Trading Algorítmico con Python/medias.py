@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("ETHUSDT.csv")
+df = pd.read_csv("BTCUSDT.csv")
 # get the last 30 prices
 last_30_prices = df["Close"].tail(360)
 # calculate the average of the last 30 prices
