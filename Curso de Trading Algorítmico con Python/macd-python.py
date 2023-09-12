@@ -7,7 +7,7 @@ import numpy as np
 from os import system
 
 # Grafico de AMAZON desde la libreria de Yahoo Finance
-df = yf.download("AMZN", start = "2022-12-31")
+df = yf.download("NFLX", start = "2022-12-31")
 #We work with the close data:
 df["EMA12"] = df.Close.ewm(span=12).mean()
 df["EMA26"] = df.Close.ewm(span=26).mean()

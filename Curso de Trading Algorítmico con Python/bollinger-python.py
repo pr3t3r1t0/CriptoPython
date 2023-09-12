@@ -10,7 +10,7 @@ import yfinance as yahoo_finance
 ###########################
 pd.core.common.is_list_like = pd.api.types.is_list_like
 pd.set_option('expand_frame_repr', False)  
-
+ 
 
 #TICKER DE LA EMPRESA QUE QUEREMOS ANALIZAR
 #ticker = 'GOOG'
